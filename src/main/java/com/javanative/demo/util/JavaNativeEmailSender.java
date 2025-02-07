@@ -73,7 +73,7 @@ public class JavaNativeEmailSender {
             Transport.send(message);
             log.log(Level.FINE, "Email sent successfully....");
         } catch (MessagingException mex) {
-            log.log(Level.SEVERE, "Could not send email successfully: "+mex.getMessage(), mex);
+            log.log(Level.SEVERE, "Could not send email successfully: " + mex.getMessage(), mex);
         }
     }
 }
