@@ -6,6 +6,7 @@ This application leverages native Java capabilities for scheduling tasks and sen
 
 - **Scheduled Email Sending**: Utilizes Java's `ScheduledExecutorService` for defining when emails should be sent.
 - **Time Logging**: Logs the time at which each email is scheduled to be sent in Indian Standard Time (IST).
+- **Memory Usage Logging**: Monitors and logs heap and non-heap memory usage at runtime, displaying used and maximum heap memory in megabytes.
 
 ## Setup
 
