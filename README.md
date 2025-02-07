@@ -90,3 +90,7 @@ java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005 -jar you
 This application showcases the use of Java's native capabilities for both scheduling tasks and email dispatch, demonstrating how to set up automated email sending with time logging in IST. For security reasons, remember not to hardcode your email credentials in the source code. Instead, use environment variables or a secure configuration mechanism to manage sensitive information.
 
 Also, note that **Java Util Logging** has been used for logging, and the `logging.properties` file has been declared under `src/main/resources`.
+
+For generating gmail app password, you may refer to the below link: <br>
+visit [YouTube Tutorial](https://www.youtube.com/watch?v=MkLX85XU5rU&t=1s).
+
